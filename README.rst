@@ -2,10 +2,10 @@ Username authenticator that checks for existing subject
 =======================================================
 
 .. image:: https://img.shields.io/badge/quality-beta-yellow
-:target: https://curity.io/resources/code-examples/status/
+    :target: https://curity.io/resources/code-examples/status/
 
 .. image:: https://img.shields.io/badge/availability-binary-blue
-:target: https://curity.io/resources/code-examples/status/
+    :target: https://curity.io/resources/code-examples/status/
 
 This authenticator is a clone of https://github.com/curityio/username-authenticator
 
