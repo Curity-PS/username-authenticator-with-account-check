@@ -1,0 +1,9 @@
+meta.title=Logga in
+page.title=Logga in
+view.authenticate=Logga in
+view.username=Användarnamn
+view.submit=Nästa
+validation.error.username.required=Du måste ange ditt användarnamn
+error.username.invalid=användarnamnet är ogiltig
+view.register=Registrera
+
