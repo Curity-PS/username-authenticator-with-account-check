@@ -16,7 +16,7 @@
 
 #define ($_body)
 
-    #if ($_errors.toArray().size() > 0)
+    #if ($_errors && $_errors.toArray().size() > 0)
         #set($_errorClass = "is-error is-error-danger")
     #end
 
