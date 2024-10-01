@@ -58,7 +58,7 @@ jobs:
 
       - name: Fetch release version from build gradle file
         run: |
-          echo "RELEASE_VERSION=$(./gradlew printProperties | grep version | awk '{print $2}')" >> $GITHUB_ENV
+          echo "RELEASE_VERSION=$(./gradlew properties | grep "version:" | awk '{print $2}')" >> $GITHUB_ENV
 
       - name: Download plugin artifacts
         uses: actions/download-artifact@v4
