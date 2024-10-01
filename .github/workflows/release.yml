@@ -35,7 +35,7 @@ jobs:
           zip --junk-paths plugin-artifacts staging/*
 
       - name: Upload plugin artifacts
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: plugin-artifacts.zip
           path: plugin-artifacts.zip
@@ -61,7 +61,7 @@ jobs:
           echo "RELEASE_VERSION=$(./gradlew printProperties | grep version | awk '{print $2}')" >> $GITHUB_ENV
 
       - name: Download plugin artifacts
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4
         with:
           name: plugin-artifacts.zip
 
