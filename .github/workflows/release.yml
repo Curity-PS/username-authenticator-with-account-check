@@ -54,6 +54,7 @@ jobs:
         uses: TriPSs/conventional-changelog-action@v5
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
+          skip-on-empty: "false"
           skip-tag: "true"
 
       - name: Fetch release version from build gradle file
